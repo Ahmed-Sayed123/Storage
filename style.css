@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#head {
+  text-align: center;
+  text-transform: uppercase;
+}
+body {
+  background-color: #222;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+input {
+  background-color: #111;
+  color: #fff;
+  border-radius: 5px;
+  width: 100%;
+  padding: 7px;
+  margin: 4px;
+  border: none;
+}
+#prices {
+  display: flex;
+  gap: 5px;
+}
+#prices input,
+#prices p {
+  width: 20%;
+}
+#prices p {
+  width: 20%;
+  background-color: hwb(114 60% 11%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  height: 36px;
+}
+p::before {
+  content: "total:";
+}
+input:focus {
+  outline: none;
+  background-color: #000;
+  scale: 1.07;
+}
+button {
+  width: 100%;
+  background-color: hwb(130 0% 26%);
+  border: solid 2px black;
+  color: #fff;
+}
+#create {
+  border-radius: 10px;
+  margin-top: 7px;
+  height: 40px;
+}
+#searchBtns {
+  display: flex;
+  gap: 7px;
+}
+#searchBtns button {
+  border-radius: 5px;
+  height: 30px;
+}
+table {
+  width: 100%;
+  color: #fff;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+#tablediv {
+  width: 100%;
+  overflow-x: auto;
+}
+#deleteAll button {
+  height: 30px;
+  border-radius: 10px;
+}
+.delete {
+  background-color: red;
+}
+table button {
+  border-radius: 5px;
+  width: 60px;
+  height: 21px;
+}
